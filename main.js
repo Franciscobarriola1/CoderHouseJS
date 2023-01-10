@@ -16,7 +16,7 @@ function realizarCompra(){
    
     let total = 0;
     for (let i=1;  i <= cantidadRopa; i++){
-        let ropa = parseInt(prompt("Selecionar:\n Remera=1, Pantalones=2, Zapatillas=3, Gorra=4, Medias=5"))
+        let ropa = parseInt(prompt("Selecionar:\n Remera=1\n Pantalones=2\n Zapatillas=3\n Gorra=4\n Medias=5"))
           
         switch(ropa){
             case 1:
