@@ -45,18 +45,19 @@ function nuevaVestimenta(){
    
 }
 
-//PIDE DOS VECES EL TALLE
+
 
 function buscarTalle(){
     alert('Talles son : small, medium, large, XL , XXL')
     let talleSeleccionado = prompt("Elija su talle:")
-    let resultado = camisetas.find(obj => {
+    let resultado = camisetas.find(obj => {/* 
+        console.log(obj.talle === talleSeleccionado); */
         return obj.talle === talleSeleccionado;
     })
     if(resultado){
         console.log(resultado)
     }else{
-        alert('El talle no existe')
+        alert('El talle es inexistente')
     }
 }
 
