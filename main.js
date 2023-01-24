@@ -103,7 +103,7 @@ function preguntarOpcion(exit){
                     break
                 default:
                     console.log('Opción Incorrecta')
-                break
+                    break
             }
 
         }
